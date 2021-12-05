@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/img/icon.png" type="image/x-icon">
+
+    <!-- Fuente para el reloj -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>Reloj Digital</title>
+</head>
+<body>
+    <div class="container">
+        <div class="reloj-container">
+            <div class="reloj">
+                <span id="hora">00</span>
+                <span id="mostrarOcultar">:</span>
+                <span id="minutos">00</span>
+            </div>
+            <div class="separator"></div>
+            <div class="indicaciones">
+                <span id="segundos">00</span>
+                <div class="separator2"></div>
+                <span id="amPm">AM</span>
+            </div>
+        </div>
+        <div class="fechaActual">
+            <span id="dia"></span> de <span id="mes"></span> del <span id="year"></span>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
